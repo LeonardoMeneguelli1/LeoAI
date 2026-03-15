@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos para conteúdo HTML renderizado do remark */
+.html-content {
+  @apply text-gray-100;
+}
+
+.html-content h1,
+.html-content h2,
+.html-content h3,
+.html-content h4,
+.html-content h5,
+.html-content h6 {
+  @apply font-bold mt-4 mb-2;
+}
+
+.html-content h1 {
+  @apply text-2xl;
+}
+
+.html-content h2 {
+  @apply text-xl;
+}
+
+.html-content h3 {
+  @apply text-lg;
+}
+
+.html-content p {
+  @apply mb-3;
+}
+
+.html-content ul,
+.html-content ol {
+  @apply mb-3 ml-4;
+}
+
+.html-content li {
+  @apply mb-1 list-disc;
+}
+
+.html-content ol li {
+  @apply list-decimal;
+}
+
+.html-content code {
+  @apply bg-gray-800 text-orange-400 px-2 py-1 rounded text-sm font-mono;
+}
+
+.html-content pre {
+  @apply bg-gray-800 p-4 rounded mb-3 overflow-x-auto;
+}
+
+.html-content pre code {
+  @apply bg-transparent px-0 py-0;
+}
+
+.html-content table {
+  @apply border-collapse border border-gray-600 mb-3;
+}
+
+.html-content th,
+.html-content td {
+  @apply border border-gray-600 px-3 py-2;
+}
+
+.html-content th {
+  @apply bg-gray-700 font-bold;
+}
+
+.html-content blockquote {
+  @apply border-l-4 border-blue-500 pl-4 italic text-gray-400 mb-3;
+}
+
+.html-content a {
+  @apply text-blue-400 hover:text-blue-300 underline;
+}
+
+.html-content strong,
+.html-content b {
+  @apply font-bold;
+}
+
+.html-content em,
+.html-content i {
+  @apply italic;
+}
