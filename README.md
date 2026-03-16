@@ -217,4 +217,3 @@ LeoAI/
 ## 📄 Licença
 
 Este projeto está sob a licença MIT.</content>
-<parameter name="filePath">c:\Users\leona\Desktop\Projects\App_Saas_IA\README.md
