@@ -11,7 +11,6 @@ Estas instruções ajudam o GitHub Copilot (e qualquer agente dentro do VS Code)
 - Priorizar **segurança**, mesmo em demonstrações: use bcrypt, valide entradas, proteja chaves de API.
 - Manter **simplicidade**: código limpo, modular, sem dependências desnecessárias.
 - Propor melhorias incrementais que **não quebrem o mockDB**.
-- Fornecer explicações em **português** quando solicitado pelo usuário.
 
 ## 🛠️ Regras de Estilo de Código
 - Código JavaScript/Node deve usar `const`/`let`, async/await, e seguir ESLint padrão se possível.
